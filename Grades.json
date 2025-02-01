@@ -1,0 +1,242 @@
+[
+  {
+    "Student_ID": 1001,
+    "Course_ID": "SCI103",
+    "Assignment_Title": "Quiz 3",
+    "Score": 85
+  },
+  {
+    "Student_ID": 1001,
+    "Course_ID": "BIO105",
+    "Assignment_Title": "Market Analysis 3",
+    "Score": 97
+  },
+  {
+    "Student_ID": 1002,
+    "Course_ID": "HIS104",
+    "Assignment_Title": "Market Analysis 1",
+    "Score": 95
+  },
+  {
+    "Student_ID": 1002,
+    "Course_ID": "ART107",
+    "Assignment_Title": "Thermodynamics Quiz 2",
+    "Score": 92
+  },
+  {
+    "Student_ID": 1003,
+    "Course_ID": "CSC108",
+    "Assignment_Title": "Project 1",
+    "Score": 93
+  },
+  {
+    "Student_ID": 1003,
+    "Course_ID": "HIS104",
+    "Assignment_Title": "Color Theory Assignment 2",
+    "Score": 99
+  },
+  {
+    "Student_ID": 1004,
+    "Course_ID": "SCI103",
+    "Assignment_Title": "Molecular Model 2",
+    "Score": 93
+  },
+  {
+    "Student_ID": 1004,
+    "Course_ID": "MTH102",
+    "Assignment_Title": "Literary Analysis 2",
+    "Score": 91
+  },
+  {
+    "Student_ID": 1005,
+    "Course_ID": "MTH102",
+    "Assignment_Title": "Experiment 3",
+    "Score": 81
+  },
+  {
+    "Student_ID": 1005,
+    "Course_ID": "BIO105",
+    "Assignment_Title": "Color Theory Assignment 2",
+    "Score": 98
+  },
+  {
+    "Student_ID": 1006,
+    "Course_ID": "CHE106",
+    "Assignment_Title": "Experiment 3",
+    "Score": 81
+  },
+  {
+    "Student_ID": 1006,
+    "Course_ID": "CSC108",
+    "Assignment_Title": "Civilization Project 2",
+    "Score": 90
+  },
+  {
+    "Student_ID": 1007,
+    "Course_ID": "ENG101",
+    "Assignment_Title": "Poetry Interpretation 2",
+    "Score": 80
+  },
+  {
+    "Student_ID": 1007,
+    "Course_ID": "SCI103",
+    "Assignment_Title": "Sketchbook Submission 2",
+    "Score": 95
+  },
+  {
+    "Student_ID": 1008,
+    "Course_ID": "MTH102",
+    "Assignment_Title": "Market Analysis 2",
+    "Score": 88
+  },
+  {
+    "Student_ID": 1008,
+    "Course_ID": "BIO105",
+    "Assignment_Title": "Documentary Review 2",
+    "Score": 82
+  },
+  {
+    "Student_ID": 1009,
+    "Course_ID": "BIO105",
+    "Assignment_Title": "Personal Fitness Log 1",
+    "Score": 83
+  },
+  {
+    "Student_ID": 1009,
+    "Course_ID": "ENG101",
+    "Assignment_Title": "Athletics Test 2",
+    "Score": 87
+  },
+  {
+    "Student_ID": 1010,
+    "Course_ID": "MTH102",
+    "Assignment_Title": "Athletics Test 1",
+    "Score": 90
+  },
+  {
+    "Student_ID": 1010,
+    "Course_ID": "BIO105",
+    "Assignment_Title": "App Development 3",
+    "Score": 99
+  },
+  {
+    "Student_ID": 1011,
+    "Course_ID": "ART107",
+    "Assignment_Title": "Athletics Test 2",
+    "Score": 96
+  },
+  {
+    "Student_ID": 1011,
+    "Course_ID": "ECN110",
+    "Assignment_Title": "Quiz 2",
+    "Score": 85
+  },
+  {
+    "Student_ID": 1012,
+    "Course_ID": "BIO105",
+    "Assignment_Title": "Civilization Project 3",
+    "Score": 77
+  },
+  {
+    "Student_ID": 1012,
+    "Course_ID": "MTH102",
+    "Assignment_Title": "Thermodynamics Quiz 1",
+    "Score": 88
+  },
+  {
+    "Student_ID": 1013,
+    "Course_ID": "CHE106",
+    "Assignment_Title": "Documentary Review 3",
+    "Score": 91
+  },
+  {
+    "Student_ID": 1013,
+    "Course_ID": "HIS104",
+    "Assignment_Title": "Research Paper 2",
+    "Score": 96
+  },
+  {
+    "Student_ID": 1014,
+    "Course_ID": "BIO105",
+    "Assignment_Title": "Molecular Model 2",
+    "Score": 88
+  },
+  {
+    "Student_ID": 1014,
+    "Course_ID": "ART107",
+    "Assignment_Title": "Poetry Interpretation 3",
+    "Score": 95
+  },
+  {
+    "Student_ID": 1015,
+    "Course_ID": "SCI103",
+    "Assignment_Title": "Lab Report 2",
+    "Score": 76
+  },
+  {
+    "Student_ID": 1015,
+    "Course_ID": "HIS104",
+    "Assignment_Title": "Sketchbook Submission 3",
+    "Score": 87
+  },
+  {
+    "Student_ID": 1016,
+    "Course_ID": "MTH102",
+    "Assignment_Title": "Essay 3",
+    "Score": 97
+  },
+  {
+    "Student_ID": 1016,
+    "Course_ID": "CHE106",
+    "Assignment_Title": "Personal Fitness Log 2",
+    "Score": 76
+  },
+  {
+    "Student_ID": 1017,
+    "Course_ID": "PE109",
+    "Assignment_Title": "Genetics Quiz 3",
+    "Score": 99
+  },
+  {
+    "Student_ID": 1017,
+    "Course_ID": "HIS104",
+    "Assignment_Title": "Documentary Review 3",
+    "Score": 75
+  },
+  {
+    "Student_ID": 1018,
+    "Course_ID": "HIS104",
+    "Assignment_Title": "Algorithm Design 2",
+    "Score": 81
+  },
+  {
+    "Student_ID": 1018,
+    "Course_ID": "PE109",
+    "Assignment_Title": "Project 2",
+    "Score": 88
+  },
+  {
+    "Student_ID": 1019,
+    "Course_ID": "PE109",
+    "Assignment_Title": "Documentary Review 1",
+    "Score": 92
+  },
+  {
+    "Student_ID": 1019,
+    "Course_ID": "SCI103",
+    "Assignment_Title": "Documentary Review 3",
+    "Score": 91
+  },
+  {
+    "Student_ID": 1020,
+    "Course_ID": "SCI103",
+    "Assignment_Title": "Lab Report 3",
+    "Score": 75
+  },
+  {
+    "Student_ID": 1020,
+    "Course_ID": "CHE106",
+    "Assignment_Title": "Market Analysis 2",
+    "Score": 85
+  }
+]
