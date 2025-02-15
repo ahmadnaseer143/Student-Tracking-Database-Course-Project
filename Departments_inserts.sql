@@ -1,0 +1,10 @@
+INSERT INTO Departments VALUES (1, 'Computer Science', 'Edward Davis');
+INSERT INTO Departments VALUES (2, 'Mathematics', 'Helen Jones');
+INSERT INTO Departments VALUES (3, 'Physics', 'Diana Garcia');
+INSERT INTO Departments VALUES (4, 'Biology', 'Bob Brown');
+INSERT INTO Departments VALUES (5, 'Chemistry', 'George Johnson');
+INSERT INTO Departments VALUES (6, 'History', 'Helen Johnson');
+INSERT INTO Departments VALUES (7, 'English', 'Helen Jones');
+INSERT INTO Departments VALUES (8, 'Economics', 'Charlie Williams');
+INSERT INTO Departments VALUES (9, 'Psychology', 'Alice Johnson');
+INSERT INTO Departments VALUES (10, 'Engineering', 'Fiona Jones');
