@@ -1,51 +1,64 @@
-Course_Code,Course_Name,Credits,Instructor
-CSE100,Data Structures,3,Dr. Smith 0
-CSE101,Algorithms,4,Dr. Smith 1
-CSE102,Operating Systems,3,Dr. Smith 2
-CSE103,Database Systems,4,Dr. Smith 3
-CSE104,Computer Networks,3,Dr. Smith 4
-CSE105,Artificial Intelligence,4,Dr. Smith 5
-CSE106,Machine Learning,3,Dr. Smith 6
-CSE107,Cybersecurity,4,Dr. Smith 7
-CSE108,Cloud Computing,3,Dr. Smith 8
-CSE109,Web Development,4,Dr. Smith 9
-CSE110,Software Engineering,3,Dr. Smith 10
-CSE111,Embedded Systems,4,Dr. Smith 11
-CSE112,Digital Logic Design,3,Dr. Smith 12
-CSE113,Computer Architecture,4,Dr. Smith 13
-CSE114,Human-Computer Interaction,3,Dr. Smith 14
-CSE115,Game Development,4,Dr. Smith 15
-CSE116,Big Data Analytics,3,Dr. Smith 16
-CSE117,Blockchain Technology,4,Dr. Smith 17
-CSE118,Internet of Things,3,Dr. Smith 18
-CSE119,Quantum Computing,4,Dr. Smith 19
-CSE120,Augmented Reality,3,Dr. Smith 20
-CSE121,Virtual Reality,4,Dr. Smith 21
-CSE122,Natural Language Processing,3,Dr. Smith 22
-CSE123,Computational Biology,4,Dr. Smith 23
-CSE124,Mobile App Development,3,Dr. Smith 24
-CSE125,Distributed Systems,4,Dr. Smith 25
-CSE126,Computer Vision,3,Dr. Smith 26
-CSE127,Parallel Computing,4,Dr. Smith 27
-CSE128,High-Performance Computing,3,Dr. Smith 28
-CSE129,Wireless Networks,4,Dr. Smith 29
-CSE130,Cryptography,3,Dr. Smith 30
-CSE131,Ethical Hacking,4,Dr. Smith 31
-CSE132,Computer Graphics,3,Dr. Smith 32
-CSE133,Neural Networks,4,Dr. Smith 33
-CSE134,Edge Computing,3,Dr. Smith 34
-CSE135,Robotics,4,Dr. Smith 35
-CSE136,Automation Systems,3,Dr. Smith 36
-CSE137,Control Systems,4,Dr. Smith 37
-CSE138,Embedded AI,3,Dr. Smith 38
-CSE139,Signal Processing,4,Dr. Smith 39
-CSE140,Bioinformatics,3,Dr. Smith 40
-CSE141,Semantic Web,4,Dr. Smith 41
-CSE142,Compiler Design,3,Dr. Smith 42
-CSE143,Theory of Computation,4,Dr. Smith 43
-CSE144,Mathematical Logic,3,Dr. Smith 44
-CSE145,Cloud Security,4,Dr. Smith 45
-CSE146,DevOps,3,Dr. Smith 46
-CSE147,Software Testing,4,Dr. Smith 47
-CSE148,Digital Image Processing,3,Dr. Smith 48
-CSE149,Advanced Databases,4,Dr. Smith 49
+Course_Code,Course_Name,Credits,Teachers_ID,Department_ID
+CS101,Introduction to Computer Science,3,1,10
+MATH201,Calculus I,4,2,20
+PHYS101,Physics Fundamentals,3,3,30
+ENG101,English Composition,3,4,40
+HIST210,World History,3,5,50
+BIO101,Introduction to Biology,4,6,60
+CHEM101,General Chemistry,4,7,70
+ECON201,Microeconomics,3,8,80
+MATH202,Calculus II,4,2,20
+CS201,Data Structures,3,1,10
+ART101,Art History,3,9,90
+CS301,Algorithms,3,1,10
+PHYS201,Electricity and Magnetism,4,3,30
+MATH301,Linear Algebra,3,2,20
+ENG201,Advanced English,3,4,40
+CHEM201,Organic Chemistry,4,7,70
+BIO201,Genetics,4,6,60
+CS401,Operating Systems,3,1,10
+MATH402,Differential Equations,4,2,20
+ECON301,Macroeconomics,3,8,80
+PHYS301,Quantum Mechanics,4,3,30
+CS501,Artificial Intelligence,3,1,10
+ENG301,Literature Analysis,3,4,40
+MATH501,Abstract Algebra,4,2,20
+BIO301,Cell Biology,4,6,60
+CHEM301,Inorganic Chemistry,4,7,70
+HIST301,Modern History,3,5,50
+MATH601,Probability and Statistics,3,2,20
+CS601,Machine Learning,3,1,10
+PHYS401,Thermodynamics,3,3,30
+ECON401,International Economics,3,8,80
+BIO401,Biochemistry,4,6,60
+CHEM401,Physical Chemistry,4,7,70
+CS701,Cloud Computing,3,1,10
+MATH701,Numerical Methods,4,2,20
+PHYS501,Astrophysics,3,3,30
+ENG401,Creative Writing,3,4,40
+MATH801,Topology,3,2,20
+BIO501,Microbiology,4,6,60
+CHEM501,Analytical Chemistry,4,7,70
+HIST401,Ancient Civilizations,3,5,50
+CS801,Blockchain Technology,3,1,10
+ECON501,Behavioral Economics,3,8,80
+BIO601,Evolutionary Biology,4,6,60
+CHEM601,Environmental Chemistry,4,7,70
+PHYS601,Solid State Physics,3,3,30
+CS901,Cybersecurity,3,1,10
+MATH901,Mathematical Logic,4,2,20
+BIO701,Biotechnology,4,6,60
+ENG501,Professional Writing,3,4,40
+HIST501,History of the Americas,3,5,50
+CS1001,Intro to Data Science,3,1,10
+ECON601,Development Economics,3,8,80
+MATH1001,Real Analysis,3,2,20
+BIO1001,Ecology,4,6,60
+CHEM1001,General Laboratory Techniques,4,7,70
+PHYS1001,Classical Mechanics,3,3,30
+ENG1001,Public Speaking,3,4,40
+HIST1001,History of Europe,3,5,50
+CS1002,Web Development,3,1,10
+ECON1002,Introduction to Global Trade,3,8,80
+MATH1002,Discrete Mathematics,3,2,20
+BIO1002,Human Anatomy,4,6,60

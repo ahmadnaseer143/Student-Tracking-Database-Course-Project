@@ -1,22 +1,27 @@
 import pandas as pd
 import random
 
-# Load the CSV file
-df = pd.read_csv("Students.csv")
+# Load the Students CSV file
+students_df = pd.read_csv("Processed_Students.csv")
 
 # Rename and keep only necessary columns
-df = df.rename(columns={'id': 'Student_ID', 'name': 'Name', 'age': 'Age'})
-df = df[['Student_ID', 'Name', 'Age']]
+students_df = students_df.rename(columns={'id': 'Student_ID', 'name': 'Name', 'age': 'Age'})
+students_df = students_df[['Student_ID', 'Name', 'Age']]
 
 # Generate random Grade_Level values
 grade_levels = ['Freshman', 'Sophomore', 'Junior', 'Senior']
-df['Grade_Level'] = [random.choice(grade_levels) for _ in range(len(df))]
+students_df['Grade_Level'] = [random.choice(grade_levels) for _ in range(len(students_df))]
 
-# Generate random Parent_Contact_Info (fake emails)
-domains = ["gmail.com", "yahoo.com", "outlook.com"]
-df['Parent_Contact_Info'] = [f"parent{sid}@{random.choice(domains)}" for sid in df['Student_ID']]
+# Load the Parents CSV file
+parents_df = pd.read_csv("Parents.csv")
 
-# Save the processed data
-df.to_csv("Processed_Students.csv", index=False)
+# Get the list of Parent_IDs
+parent_ids = parents_df["Parent_ID"].tolist()
 
-print("Processed_Students.csv file has been created!")
+# Assign Parent_IDs randomly to students
+students_df['Parent_ID'] = [random.choice(parent_ids) for _ in range(len(students_df))]
+
+# Save the updated student data
+students_df.to_csv("Processed_Students.csv", index=False)
+
+print("Processed_Students.csv file has been updated with Parent_ID!")

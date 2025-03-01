@@ -21,15 +21,24 @@ def generate_email(name):
 
 # Generate parents data
 parents = []
+student_parent_mapping = {}
+
 for parent_id, student_id in enumerate(student_ids, start=1):
     name = generate_name()
     email = generate_email(name)
-    parents.append([parent_id, name, email, student_id])
+    parents.append([parent_id, name, email])
+    student_parent_mapping[student_id] = parent_id  # Link student to parent
 
-# Create DataFrame
-df = pd.DataFrame(parents, columns=["Parent_ID", "Name", "Contact_Info", "Student_ID"])
+# Create Parents DataFrame
+parents_df = pd.DataFrame(parents, columns=["Parent_ID", "Name", "Email"])
 
 # Save to CSV
-df.to_csv("Parents.csv", index=False)
+parents_df.to_csv("Parents.csv", index=False)
 
-print("Parents.csv file has been created!")
+# Update Students table with Parent_ID
+students_df["Parent_ID"] = students_df["Student_ID"].map(student_parent_mapping)
+
+# Save updated Students data
+students_df.to_csv("Processed_Students.csv", index=False)
+
+print("Parents.csv and updated Processed_Students.csv files have been created!")

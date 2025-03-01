@@ -1,10 +1,10 @@
 import pandas as pd
 
 # Load CSV file (update file name for different tables)
-df = pd.read_csv("Processed_Students.csv")
+df = pd.read_csv("Processed_Grades.csv")
 
 # Generate SQL INSERT statements
-table_name = "Students"
+table_name = "Grades"
 insert_statements = []
 
 for _, row in df.iterrows():

@@ -4,12 +4,15 @@ import random
 # Load the Courses dataset
 courses_df = pd.read_csv("Courses.csv")
 
-# Extract Course_Codes
+# Extract Course_Code
 course_codes = courses_df["Course_Code"].tolist()
 
 # Function to generate random due dates
 def random_date():
-    return f"202{random.randint(1, 3)}-{random.randint(1, 12):02d}-{random.randint(1, 28):02d}"
+    year = random.randint(2021, 2023)  # Ensure proper year format
+    month = random.randint(1, 12)
+    day = random.randint(1, 28)  # Avoid invalid dates like Feb 30
+    return f"{year}-{month:02d}-{day:02d}"
 
 # Assignment Titles Pool
 assignment_titles = [
@@ -27,11 +30,12 @@ for course_code in course_codes:
     
     for title in selected_titles:
         max_score = random.choice([50, 100])  # Max score is either 50 or 100
-        assignments.append([assignment_id, course_code, title, random_date(), max_score])
+        due_date = random_date()  # Ensure correct date format
+        assignments.append([assignment_id, title, due_date, max_score, course_code])
         assignment_id += 1
 
 # Create DataFrame
-df = pd.DataFrame(assignments, columns=["Assignment_ID", "Course_Code", "Title", "Due_Date", "Max_Score"])
+df = pd.DataFrame(assignments, columns=["Assignment_ID", "Title", "Due_Date", "Max_Score", "Course_Code"])
 
 # Save to CSV
 df.to_csv("Assignments.csv", index=False)
